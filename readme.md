@@ -28,10 +28,12 @@ The ComfyUI Telegram Sender Node is a custom node for [ComfyUI](https://github.c
 1. Create a Telegram bot and obtain its token. You can follow the instructions in the [Telegram Bot API documentation](https://core.telegram.org/bots#creating-a-new-bot).
 
 2. Create a `settings.json` file in the same directory as the `telegram_sender.py` file with the following content:
-```json
+
+```
 {
   "telegram_bot_token": "YOUR_TELEGRAM_BOT_TOKEN"
-}```
+}
+```
 
 Replace "YOUR_TELEGRAM_BOT_TOKEN" with the actual token of your Telegram bot.
 
